@@ -2,13 +2,13 @@ import React from "react";
 import {useGLTF, useTexture} from "@react-three/drei";
 
 export function Model(props) {
-    const { nodes, materials } = useGLTF("/AndreyTry.glb");
+    const { nodes, materials } = useGLTF("/llg_react/AndreyTry.glb");
     const [
         faceBaseColor,
         faceNormal,
     ] = useTexture([
-        "/Face/Face1_BaseColor.png",
-        "/Face/Face1_Normal.png",
+        "/llg_react/Face/Face1_BaseColor.png",
+        "/llg_react/Face/Face1_Normal.png",
     ])
     faceBaseColor.flipY = false;
     faceNormal.flipY = false;
@@ -65,4 +65,4 @@ export function Model(props) {
     );
 }
 
-useGLTF.preload("/AndreyTry.glb");
+useGLTF.preload("/llg_react/AndreyTry.glb");

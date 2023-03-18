@@ -10,19 +10,19 @@ import {AboutMe} from "./roots/AboutMe";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/llg_react/",
         element: <Root />,
         children: [
             {
-                path: "/",
+                path: "/llg_react/",
                 element: <AboutMe />,
             },
             {
-                path: "/skills",
+                path: "/llg_react/skills",
                 element: <Skills />,
             },
             {
-                path: "/resume",
+                path: "/llg_react/resume",
                 element: <Resume />,
             },
         ],

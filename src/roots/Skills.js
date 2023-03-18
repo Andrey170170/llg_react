@@ -18,7 +18,7 @@ export function Skills(props) {
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/stalker_No_Data.jpg"
+                            image="/llg_react/stalker_No_Data.jpg"
                             title="green iguana"
                         />
                         <CardContent>
@@ -36,7 +36,7 @@ export function Skills(props) {
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/stalker_No_Data.jpg"
+                            image="/llg_react/stalker_No_Data.jpg"
                             title="green iguana"
                         />
                         <CardContent>
@@ -54,7 +54,7 @@ export function Skills(props) {
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/stalker_No_Data.jpg"
+                            image="/llg_react/stalker_No_Data.jpg"
                             title="green iguana"
                         />
                         <CardContent>
@@ -73,7 +73,7 @@ export function Skills(props) {
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/stalker_No_Data.jpg"
+                            image="/llg_react/stalker_No_Data.jpg"
                             title="green iguana"
                         />
                         <CardContent>
@@ -91,7 +91,7 @@ export function Skills(props) {
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/stalker_No_Data.jpg"
+                            image="/llg_react/stalker_No_Data.jpg"
                             title="green iguana"
                         />
                         <CardContent>

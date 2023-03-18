@@ -22,17 +22,17 @@ export function Root(props) {
                         <Typography style={{"font-size": "16pt"}}>Kopanev Andrey</Typography>
                         <Box>
                             <Button variant="text" color="primary" className={"navButtons"}>
-                                <NavLink to={"/"} className={"links"}>
+                                <NavLink to={"/llg_react/"} className={"links"}>
                                     <Typography >About me</Typography>
                                 </NavLink>
                             </Button>
                             <Button variant="text" color="primary" className={"navButtons"}>
-                                <NavLink to={"/skills"} className={"links"}>
+                                <NavLink to={"/llg_react/skills"} className={"links"}>
                                     <Typography >Skills</Typography>
                                 </NavLink>
                             </Button>
                             <Button variant="text" color="primary" className={"navButtons"}>
-                                <NavLink to={"/resume"} className={"links"}>
+                                <NavLink to={"/llg_react/resume"} className={"links"}>
                                     <Typography >Resume</Typography>
                                 </NavLink>
                             </Button>

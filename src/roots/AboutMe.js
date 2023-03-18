@@ -14,7 +14,7 @@ export function AboutMe(props) {
                 </Grid2>
 
                 <Grid2 xs={4} display="flex" justifyContent="center" alignItems="center">
-                    <img src={"/stalker_No_Data.jpg"} alt={"Avatar"} style={{maxWidth: "70%", height: "auto", overflow: "auto"}}/>
+                    <img src={"/llg_react/stalker_No_Data.jpg"} alt={"Avatar"} style={{maxWidth: "70%", height: "auto", overflow: "auto"}}/>
                 </Grid2>
                 <Grid2 xs={8} display="flex" justifyContent="center" alignItems="center">
                     <Paper elevation={5}>
