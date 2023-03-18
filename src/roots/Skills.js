@@ -1,11 +1,25 @@
-import {Box, Card, CardContent, CardMedia, Divider, List, ListItem, ListItemAvatar, Avatar, ListItemText, Paper, Typography} from "@mui/material";
+import {
+    Box,
+    Card,
+    CardContent,
+    CardMedia,
+    Divider,
+    List,
+    ListItem,
+    ListItemAvatar,
+    Avatar,
+    ListItemText,
+    Paper,
+    Typography
+} from "@mui/material";
 import Grid2 from '@mui/material/Unstable_Grid2';
 import BuildIcon from '@mui/icons-material/Build';
-import {amber} from "@mui/material/colors";
+import BookIcon from '@mui/icons-material/Book';
+import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 
 export function Skills(props) {
-    return(
-        <Box sx={{mt:1, pt: 3, px: 5, pb: 5}}>
+    return (
+        <Box sx={{mt: 1, pt: 3, px: 5, pb: 5}}>
             <Grid2 container spacing={4}>
                 <Grid2 xs={12}>
                     <Typography variant={"h3"}>
@@ -15,92 +29,98 @@ export function Skills(props) {
                 </Grid2>
 
                 <Grid2 xs={4} display="flex" justifyContent="center" alignItems="center">
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{maxWidth: 345}}>
                         <CardMedia
-                            sx={{ height: 140 }}
-                            image="/llg_react/stalker_No_Data.jpg"
-                            title="green iguana"
+                            sx={{height: 200}}
+                            image="/llg_react/programming_skill.jpg"
+                            title="Programming skill"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Programming
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                I have a strong background in programming languages such as Python, Java, or C++, which
+                                allows me to write efficient and effective code to create algorithms, train models, and
+                                analyze data.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid2>
                 <Grid2 xs={4} display="flex" justifyContent="center" alignItems="center">
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{maxWidth: 345}}>
                         <CardMedia
-                            sx={{ height: 140 }}
-                            image="/llg_react/stalker_No_Data.jpg"
-                            title="green iguana"
+                            sx={{height: 200}}
+                            image="/llg_react/mathematics_statistics_skill.jpeg"
+                            title="Mathematics and Statistics skill"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Mathematics and Statistics
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                I have a good understanding of mathematical and statistical concepts such as linear
+                                algebra, calculus, probability theory, and statistics, which enables me to design and
+                                implement complex models and algorithms.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid2>
                 <Grid2 xs={4} display="flex" justifyContent="center" alignItems="center">
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{maxWidth: 345}}>
                         <CardMedia
-                            sx={{ height: 140 }}
-                            image="/llg_react/stalker_No_Data.jpg"
+                            sx={{height: 200}}
+                            image="/llg_react/machine_learning_skill.jpg"
                             title="green iguana"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Machine Learning
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                I am proficient in designing, implementing, and training machine learning models for
+                                various applications, which is based on my knowledge of machine learning algorithms that
+                                enable systems to learn from data and improve their performance over time.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid2>
 
                 <Grid2 xs display="flex" justifyContent="center" alignItems="center">
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{maxWidth: 345}}>
                         <CardMedia
-                            sx={{ height: 140 }}
-                            image="/llg_react/stalker_No_Data.jpg"
-                            title="green iguana"
+                            sx={{height: 200}}
+                            image="/llg_react/big-data-visualisation.webp"
+                            title="Data Analysis and Visualization skill"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Data Analysis and Visualization
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                I am able to analyze large and complex data sets using tools such as SQL, Pandas, and
+                                NumPy. Additionally, I have skills in visualizing data and communicating insights to
+                                stakeholders using tools like Tableau or Matplotlib.
                             </Typography>
                         </CardContent>
                     </Card>
                 </Grid2>
                 <Grid2 xs display="flex" justifyContent="center" alignItems="center">
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{maxWidth: 345}}>
                         <CardMedia
-                            sx={{ height: 140 }}
-                            image="/llg_react/stalker_No_Data.jpg"
-                            title="green iguana"
+                            sx={{height: 200}}
+                            image="/llg_react/Fotolia_103529811_L-Problem-Solving.jpg"
+                            title="Problem-Solving skill"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                                Lizard
+                                Problem-Solving
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                I have strong problem-solving skills and am able to apply critical thinking to develop
+                                creative solutions to complex problems. My ability to think abstractly and have a solid
+                                understanding of AI concepts and techniques allows me to identify and solve problems
+                                effectively.
                             </Typography>
                         </CardContent>
                     </Card>
@@ -110,69 +130,60 @@ export function Skills(props) {
                     <Divider/>
                 </Grid2>
 
-                <Grid2 xs={12} sx={{mt:2}}>
+                <Grid2 xs={12} sx={{mt: 2}}>
                     <Typography variant="h3" sx={{fontWeight: 400}}>
                         Extracurricular Activities
                     </Typography>
                     <Divider/>
                 </Grid2>
 
-                <Grid2 xs={12} display="flex" justifyContent="center" alignItems="center">
-                    <Paper>
+                <Grid2 xs={1}></Grid2>
+                <Grid2 xs={10} display="flex" justifyContent="center" alignItems="center">
+                    <Paper elevation={5}>
                         <List dense={false}>
                             <ListItem>
                                 <ListItemAvatar>
                                     <Avatar>
-                                        <BuildIcon />
+                                        <BuildIcon/>
                                     </Avatar>
                                 </ListItemAvatar>
                                 <ListItemText
-                                    primary="Single-line item"
-                                    secondary="Secondary text"
+                                    primary="Programing projects"
+                                    secondary="I run several programming projects in which I try to apply new approaches to program design and programming language tools. It is a valuable extracurricular activity that can help individuals develop problem-solving skills, logical thinking, and creativity. The biggest current project is an online computer hardware store."
                                 />
                             </ListItem>
                             <ListItem>
                                 <ListItemAvatar>
                                     <Avatar>
-                                        <BuildIcon />
+                                        <BookIcon/>
                                     </Avatar>
                                 </ListItemAvatar>
                                 <ListItemText
-                                    primary="Single-line item"
-                                    secondary="Secondary text"
+                                    primary="Reading fiction books"
+                                    secondary="Reading fiction books is a leisure activity that involves reading stories that are not based on true events. It is a great way to escape from the stresses of everyday life and immerse oneself in a different world. Reading fiction books can help me develop my imagination, creativity, and empathy by exposing me to different characters, settings, and perspectives. I consider the Hyperion series by Dan Simmons to be the best book I've read recently."
                                 />
                             </ListItem>
                             <ListItem>
                                 <ListItemAvatar>
                                     <Avatar>
-                                        <BuildIcon />
+                                        <VideogameAssetIcon/>
                                     </Avatar>
                                 </ListItemAvatar>
                                 <ListItemText
-                                    primary="Single-line item"
-                                    secondary="Secondary text"
-                                />
-                            </ListItem>
-                            <ListItem>
-                                <ListItemAvatar>
-                                    <Avatar>
-                                        <BuildIcon />
-                                    </Avatar>
-                                </ListItemAvatar>
-                                <ListItemText
-                                    primary="Single-line item"
-                                    secondary="Secondary text"
+                                    primary="Gaming"
+                                    secondary="I am an avid gamer. This is another way for me to take a break from programming. I like to play first-person shooters with a realistic approach or with complex mechanics."
                                 />
                             </ListItem>
                         </List>
                     </Paper>
                 </Grid2>
+                <Grid2 xs={1}></Grid2>
 
                 <Grid2 xs={12}>
                     <Divider/>
                 </Grid2>
 
-                <Grid2 xs={12} sx={{mt:2}}>
+                <Grid2 xs={12} sx={{mt: 2}}>
                     <Typography variant="h3" sx={{fontWeight: 400}}>
                         Awards
                     </Typography>
@@ -183,47 +194,7 @@ export function Skills(props) {
                 <Grid2 xs={8} display="flex" justifyContent="center" alignItems="center">
                     <Paper elevation={5}>
                         <Typography sx={{textAlign: "left", p: 2}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi non diam lacinia vulputate eu ac arcu. Pellentesque ac dui urna. Nullam semper tincidunt lorem, in mattis orci feugiat vitae. Suspendisse potenti. Proin eget consectetur est, sit amet dictum purus. Donec tincidunt urna vel diam lacinia, eu malesuada est tincidunt. In hac habitasse platea dictumst. Suspendisse varius tincidunt libero, nec maximus nisl eleifend eu. Nulla facilisi. Curabitur pharetra faucibus lacus. Sed non tempor risus, eu tempor ex. Praesent vitae quam neque.
-                        </Typography>
-                    </Paper>
-                </Grid2>
-                <Grid2 xs={2}></Grid2>
-
-                <Grid2 xs={2}></Grid2>
-                <Grid2 xs={8} display="flex" justifyContent="center" alignItems="center">
-                    <Paper elevation={5}>
-                        <Typography sx={{textAlign: "left", p: 2}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi non diam lacinia vulputate eu ac arcu. Pellentesque ac dui urna. Nullam semper tincidunt lorem, in mattis orci feugiat vitae. Suspendisse potenti. Proin eget consectetur est, sit amet dictum purus. Donec tincidunt urna vel diam lacinia, eu malesuada est tincidunt. In hac habitasse platea dictumst. Suspendisse varius tincidunt libero, nec maximus nisl eleifend eu. Nulla facilisi. Curabitur pharetra faucibus lacus. Sed non tempor risus, eu tempor ex. Praesent vitae quam neque.
-                        </Typography>
-                    </Paper>
-                </Grid2>
-                <Grid2 xs={2}></Grid2>
-
-                <Grid2 xs={2}></Grid2>
-                <Grid2 xs={8} display="flex" justifyContent="center" alignItems="center">
-                    <Paper elevation={5}>
-                        <Typography sx={{textAlign: "left", p: 2}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi non diam lacinia vulputate eu ac arcu. Pellentesque ac dui urna. Nullam semper tincidunt lorem, in mattis orci feugiat vitae. Suspendisse potenti. Proin eget consectetur est, sit amet dictum purus. Donec tincidunt urna vel diam lacinia, eu malesuada est tincidunt. In hac habitasse platea dictumst. Suspendisse varius tincidunt libero, nec maximus nisl eleifend eu. Nulla facilisi. Curabitur pharetra faucibus lacus. Sed non tempor risus, eu tempor ex. Praesent vitae quam neque.
-                        </Typography>
-                    </Paper>
-                </Grid2>
-                <Grid2 xs={2}></Grid2>
-
-                <Grid2 xs={2}></Grid2>
-                <Grid2 xs={8} display="flex" justifyContent="center" alignItems="center">
-                    <Paper elevation={5}>
-                        <Typography sx={{textAlign: "left", p: 2}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi non diam lacinia vulputate eu ac arcu. Pellentesque ac dui urna. Nullam semper tincidunt lorem, in mattis orci feugiat vitae. Suspendisse potenti. Proin eget consectetur est, sit amet dictum purus. Donec tincidunt urna vel diam lacinia, eu malesuada est tincidunt. In hac habitasse platea dictumst. Suspendisse varius tincidunt libero, nec maximus nisl eleifend eu. Nulla facilisi. Curabitur pharetra faucibus lacus. Sed non tempor risus, eu tempor ex. Praesent vitae quam neque.
-                        </Typography>
-                    </Paper>
-                </Grid2>
-                <Grid2 xs={2}></Grid2>
-
-                <Grid2 xs={2}></Grid2>
-                <Grid2 xs={8} display="flex" justifyContent="center" alignItems="center">
-                    <Paper elevation={5}>
-                        <Typography sx={{textAlign: "left", p: 2}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi non diam lacinia vulputate eu ac arcu. Pellentesque ac dui urna. Nullam semper tincidunt lorem, in mattis orci feugiat vitae. Suspendisse potenti. Proin eget consectetur est, sit amet dictum purus. Donec tincidunt urna vel diam lacinia, eu malesuada est tincidunt. In hac habitasse platea dictumst. Suspendisse varius tincidunt libero, nec maximus nisl eleifend eu. Nulla facilisi. Curabitur pharetra faucibus lacus. Sed non tempor risus, eu tempor ex. Praesent vitae quam neque.
+                            So far, there are none.
                         </Typography>
                     </Paper>
                 </Grid2>
